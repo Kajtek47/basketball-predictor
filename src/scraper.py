@@ -31,7 +31,7 @@ def get_standings():
         rename_map = {
             'm': 'Place', 'drużyna': 'Team', 'pkt': 'Points', 'mecze': 'Games', 'różnica': 'Pts_Diff'
         }
-        df.rename(columns=rename_map)
+        df = df.rename(columns=rename_map)
 
         # Choose final columns
         final_cols = ['Place', 'Team', 'Games', 'Points', 'Wins', 'Loses', 'Pts_Scored', 'Pts_Lost', 'Pts_Diff']
@@ -56,9 +56,9 @@ def get_schedule():
         col_score = df.columns[-1]
 
         def extract_score(val):
-            match = re.search(r'(\d+:\d+)', val)
-            if match:
-                return match.group(1)
+            matches = re.findall(r'(\d+:\d+)', val)
+            if len(matches) >= 2:
+                return matches[-1]
             return None
         
         df['Result'] = df[col_score].apply(extract_score)
@@ -72,18 +72,29 @@ def get_schedule():
         def parse_teams(text):
             clean_text = text.split(" Emocje TV")[0]
             parts = clean_text.split(" - ")
-            if len(parts) > 2:
+            if len(parts) >= 2:
                 return parts[0].strip(), parts[1].strip()
             return 'Unknown', 'Unknown'
         
+        def parse_date(text):
+            if not isinstance(text, str):
+                return None
+                  
+            match = re.search(r'(\d{2}\.\d{2}\.\d{4})', text)
+            if match:
+                return match.group(1)
+            return text
+        
         df_played[['Home', 'Away']] = df_played[col_info].apply(lambda x: pd.Series(parse_teams(x)))
-        df_played['Data'] = df_played[col_score].apply(lambda x: x.split("  ")[0] if "  " in x else x.replace(x.split()[-1], "").strip())
 
         df_future[['Home', 'Away']] = df_future[col_info].apply(lambda x: pd.Series(parse_teams(x)))
-        df_future['Data'] = df_future[col_score]
+        df_future['Date'] = df_future[col_score].apply(lambda x: parse_date(x) if pd.notna(parse_date(x)) else x)
 
-        cols_played = ['Data', 'Home', 'Away', 'Pts_Home', 'Pts_Away']
-        cols_future = ['Data', 'Home', 'Away']
+        cols_played = ['Home', 'Away', 'Pts_Home', 'Pts_Away']
+        cols_future = ['Date', 'Home', 'Away']
+
+        df_future['Date'] = pd.to_datetime(df_future['Date'], format='%d.%m.%Y', errors='coerce')
+        df_future = df_future.sort_values("Date")
 
         return df_played[cols_played], df_future[cols_future]
     
