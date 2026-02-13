@@ -25,12 +25,12 @@ class MonteCarloEngine:
         for home_team, away_team in self.future_matches:
             winner_side = self.elo.simulate_single_match(home_team, away_team)
 
-        if winner_side == 'HOME':
-            sim_standings[home_team] += 2
-            sim_standings[away_team] += 1
-        else:
-            sim_standings[home_team] += 1
-            sim_standings[away_team] += 2
+            if winner_side == 'HOME':
+                sim_standings[home_team] += 2
+                sim_standings[away_team] += 1
+            else:
+                sim_standings[home_team] += 1
+                sim_standings[away_team] += 2
 
         winner = max(sim_standings, key=sim_standings.get)
         return winner
