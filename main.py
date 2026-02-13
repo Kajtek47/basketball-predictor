@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from src import scraper
 from src.elo import EloEngine
+from src.simulation import MonteCarloEngine
 
 # Path configuration
 DATA_DIR = 'data'
@@ -37,10 +38,13 @@ def main():
         engine = EloEngine()
         engine.process_season(df_played)
 
-        print("\n Current ELO standings:")
-        sorted_ratings = sorted(engine.ratings.items(), key=lambda x: x[1], reverse=True)
-        for place, (team, elo) in enumerate(sorted_ratings, 1):
-            print(f"{place}. {team}: {int(elo)}")
+    if not df_future.empty and not df_table.empty:
+        mc = MonteCarloEngine(engine, df_table, df_future)
+
+        results = mc.run(iterations=10000)
+
+        df_results = pd.DataFrame(results)
+        print(df_results.to_string(index=False))
 
 if __name__ == "__main__":
     main()
