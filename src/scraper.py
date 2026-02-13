@@ -12,6 +12,33 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
 
+# Map for team abbreviations
+TEAM_MAP = {
+    "Enea Abramczyk Astoria Bydgoszcz": "AST",
+    "SKS Fulimpex Starogard Gdański": "STG",
+    "Solvera Sokół Łańcut": "ŁAŃ",
+    "ŁKS Coolpack Łódź": "ŁKS",
+    "GKS Tychy": "GKS",
+    "Decka Pelplin": "PEL",
+    "WKK Active Hotel Wrocław": "WKK",
+    "Enea Basket Poznań": "POZ",
+    "PGE Spójnia Stargard": "SPÓ",
+    "Novimex Polonia 1912 Leszno": "LES",
+    "OPTeam Energia Polska Resovia": "RES",
+    "KKS Polonia Warszawa": "WAR",
+    "Kotwica Port Morski Kołobrzeg": "KOT",
+    "KSK Qemetica Noteć Inowrocław": "INO",
+    "Weegree AZS Politechnika Opolska": "OPO",
+    "Miners Katowice": "KAT",
+    "Żubry Abakus Okna Białystok": "BIA",
+}
+
+def get_short_name(full_name):
+    if full_name in TEAM_MAP:
+        return TEAM_MAP[full_name]
+    
+    return full_name[:3].upper()
+
 def get_standings():
     print("Downloading table standings")
     try:
@@ -33,8 +60,10 @@ def get_standings():
         }
         df = df.rename(columns=rename_map)
 
+        df['Team_Short'] = df['Team'].apply(get_short_name)
+
         # Choose final columns
-        final_cols = ['Place', 'Team', 'Games', 'Points', 'Wins', 'Loses', 'Pts_Scored', 'Pts_Lost', 'Pts_Diff']
+        final_cols = ['Place', 'Team_Short', 'Team', 'Games', 'Points', 'Wins', 'Loses', 'Pts_Scored', 'Pts_Lost', 'Pts_Diff']
         final_cols = [c for c in final_cols if c in df.columns]
 
         return df[final_cols]
@@ -86,12 +115,16 @@ def get_schedule():
             return text
         
         df_played[['Home', 'Away']] = df_played[col_info].apply(lambda x: pd.Series(parse_teams(x)))
+        df_played['Home_Short'] = df_played['Home'].apply(get_short_name)
+        df_played['Away_Short'] = df_played['Away'].apply(get_short_name)
 
         df_future[['Home', 'Away']] = df_future[col_info].apply(lambda x: pd.Series(parse_teams(x)))
         df_future['Date'] = df_future[col_score].apply(lambda x: parse_date(x) if pd.notna(parse_date(x)) else x)
+        df_future['Home_Short'] = df_future['Home'].apply(get_short_name)
+        df_future['Away_Short'] = df_future['Away'].apply(get_short_name)
 
-        cols_played = ['Home', 'Away', 'Pts_Home', 'Pts_Away']
-        cols_future = ['Date', 'Home', 'Away']
+        cols_played = ['Home', 'Home_Short', 'Away', 'Away_Short', 'Pts_Home', 'Pts_Away']
+        cols_future = ['Date', 'Home', 'Home_Short', 'Away', 'Away_Short']
 
         df_future['Date'] = pd.to_datetime(df_future['Date'], format='%d.%m.%Y', errors='coerce')
         df_future = df_future.sort_values("Date")

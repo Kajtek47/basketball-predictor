@@ -1,25 +1,20 @@
-# Python cache & compiled files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual Environments
 venv/
 .venv/
 env/
 .env
 
-# Data files (generowane przez skrypt - nie wrzucamy do repo)
 data/
 *.csv
 *.xlsx
 
-# IDE settings (pliki konfiguracyjne edytorów)
 .vscode/
 .idea/
 *.swp
 
-# OS specific files
 .DS_Store
 Thumbs.db
