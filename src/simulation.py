@@ -45,11 +45,15 @@ class MonteCarloEngine:
             winners_count[winner] += 1
 
         results = []
-        for team, wins in winners_count.items():
+
+        all_teams = list(self.current_standings.keys())
+
+        for team in all_teams:
+            wins = winners_count[team]
             probability = (wins / iterations) * 100
             results.append({
                 'Team': team,
-                'Win_Prob': round(probability, 1)
+                'Win_Prob': round(probability, 2)
             })
         
         results.sort(key = lambda x: x['Win_Prob'], reverse=True)
