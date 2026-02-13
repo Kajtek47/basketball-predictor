@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from src import scraper
+from src.elo import EloEngine
 
 # Path configuration
 DATA_DIR = 'data'
@@ -31,6 +32,15 @@ def main():
     if not df_future.empty:
         df_future.to_csv(FILE_SCHEDULE, index=False)
         print("Future schedule saved successfully")
+
+    if not df_played.empty:
+        engine = EloEngine()
+        engine.process_season(df_played)
+
+        print("\n Current ELO standings:")
+        sorted_ratings = sorted(engine.ratings.items(), key=lambda x: x[1], reverse=True)
+        for place, (team, elo) in enumerate(sorted_ratings, 1):
+            print(f"{place}. {team}: {int(elo)}")
 
 if __name__ == "__main__":
     main()
