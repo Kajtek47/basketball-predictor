@@ -49,9 +49,9 @@ class MonteCarloEngine:
             probability = (wins / iterations) * 100
             results.append({
                 'Team': team,
-                'P': round(probability, 1)
+                'Win_Prob': round(probability, 1)
             })
         
         results.sort(key = lambda x: x['Win_Prob'], reverse=True)
-
+        
         return results
