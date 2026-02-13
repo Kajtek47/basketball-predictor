@@ -2,12 +2,14 @@ import os
 import pandas as pd
 from src import scraper
 from src.elo import EloEngine
+from src.simulation import MonteCarloEngine
 
 # Path configuration
 DATA_DIR = 'data'
 FILE_TABLE = os.path.join(DATA_DIR, 'table.csv')
 FILE_GAMES = os.path.join(DATA_DIR, 'matches_played.csv')
 FILE_SCHEDULE = os.path.join(DATA_DIR, 'matches_future.csv')
+OUTPUT_FILE = os.path.join(DATA_DIR, 'simulation_results.csv')
 
 def main():
     print("Data processing started")
@@ -37,10 +39,17 @@ def main():
         engine = EloEngine()
         engine.process_season(df_played)
 
-        print("\n Current ELO standings:")
-        sorted_ratings = sorted(engine.ratings.items(), key=lambda x: x[1], reverse=True)
-        for place, (team, elo) in enumerate(sorted_ratings, 1):
-            print(f"{place}. {team}: {int(elo)}")
+    if not df_future.empty and not df_table.empty:
+        mc = MonteCarloEngine(engine, df_table, df_future)
 
+        results = mc.run(iterations=1000000)
+
+        df_results = pd.DataFrame(results)
+        print("\n -- Simulation Results (%) --")
+        pd.set_option('display.max_rows', None)
+        print(df_results.to_string(index=False))
+
+        df_results.to_csv(OUTPUT_FILE, index=False)
+                          
 if __name__ == "__main__":
     main()
