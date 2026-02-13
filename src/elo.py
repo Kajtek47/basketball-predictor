@@ -1,4 +1,5 @@
 import math
+import random
 
 class EloEngine:
     def __init__(self, k_factor=20, home_advantage=70, initial_rating=1500):
@@ -61,3 +62,16 @@ class EloEngine:
                 home_points=row.Pts_Home,
                 away_points=row.Pts_Away
             )
+
+    def simulate_single_match(self, home_team, away_team):
+        r_home = self.ratings.get(home_team, self.initial_rating)
+        r_away = self.ratings.get(away_team, self.initial_rating)
+
+        win_prob = self.calculate_prob(r_home + self.hca, r_away)
+
+        random_roll = random.random()
+
+        if random_roll < win_prob:
+            return 'HOME'
+        else:
+            return 'AWAY'
