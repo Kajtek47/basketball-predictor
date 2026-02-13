@@ -9,6 +9,7 @@ DATA_DIR = 'data'
 FILE_TABLE = os.path.join(DATA_DIR, 'table.csv')
 FILE_GAMES = os.path.join(DATA_DIR, 'matches_played.csv')
 FILE_SCHEDULE = os.path.join(DATA_DIR, 'matches_future.csv')
+OUTPUT_FILE = os.path.join(DATA_DIR, 'simulation_results.csv')
 
 def main():
     print("Data processing started")
@@ -44,7 +45,11 @@ def main():
         results = mc.run(iterations=1000000)
 
         df_results = pd.DataFrame(results)
+        print("\n -- Simulation Results (%) --")
+        pd.set_option('display.max_rows', None)
         print(df_results.to_string(index=False))
 
+        df_results.to_csv(OUTPUT_FILE, index=False)
+                          
 if __name__ == "__main__":
     main()
