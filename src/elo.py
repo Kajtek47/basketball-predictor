@@ -2,7 +2,7 @@ import math
 import random
 
 class EloEngine:
-    def __init__(self, k_factor=20, home_advantage=70, initial_rating=1500):
+    def __init__(self, k_factor=10, home_advantage=30, initial_rating=1500):
         self.k = k_factor
         self.hca = home_advantage
         self.initial_rating = initial_rating
