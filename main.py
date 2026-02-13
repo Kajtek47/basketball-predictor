@@ -41,7 +41,7 @@ def main():
     if not df_future.empty and not df_table.empty:
         mc = MonteCarloEngine(engine, df_table, df_future)
 
-        results = mc.run(iterations=10000)
+        results = mc.run(iterations=1000000)
 
         df_results = pd.DataFrame(results)
         print(df_results.to_string(index=False))

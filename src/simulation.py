@@ -35,7 +35,7 @@ class MonteCarloEngine:
         winner = max(sim_standings, key=sim_standings.get)
         return winner
     
-    def run(self, iterations=10000):
+    def run(self, iterations):
         print("\n Monte Carlo simulation started")
 
         winners_count = defaultdict(int)
@@ -53,7 +53,7 @@ class MonteCarloEngine:
             probability = (wins / iterations) * 100
             results.append({
                 'Team': team,
-                'Win_Prob': round(probability, 2)
+                'Win_Prob': round(probability, 4)
             })
         
         results.sort(key = lambda x: x['Win_Prob'], reverse=True)
