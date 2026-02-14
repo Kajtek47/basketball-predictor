@@ -3,6 +3,7 @@ import pandas as pd
 from src import scraper
 from src.elo import EloEngine
 from src.simulation import MonteCarloEngine
+from src.visuals import draw_table_with_logos
 
 # Path configuration
 DATA_DIR = 'data'
@@ -50,6 +51,10 @@ def main():
         print(df_results.to_string(index=False))
 
         df_results.to_csv(OUTPUT_FILE, index=False)
+    
+    # Visualisation
+    print("Visualisations are being generated")
+    draw_table_with_logos(df_results)
                           
 if __name__ == "__main__":
     main()
