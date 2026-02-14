@@ -76,7 +76,14 @@ def draw_table_with_logos(df_results, filename='data/visual_table.png'):
         ax.text(col_pos[4], y, f"{row.Relegation_Probability:.2f}%", ha='center', va='center',
                 bbox=dict(facecolor=c_rel, edgecolor='none', pad=3))
         
-        ax.plot([0,10], [y-0.5, y-0.5], color='gray', linewidth=0.5, alpha=0.3)
+        line_y = y - 0.5
+
+        if i == 7:
+            ax.plot([0,10], [line_y, line_y], color='green', linewidth=1.5, linestyle='--')
+        elif i == n_rows - 3:
+            ax.plot([0,10], [line_y, line_y], color='red', linewidth=1.5, linestyle='--')
+        elif i < n_rows - 1:
+            ax.plot([0, 10], [line_y, line_y], color='gray', linewidth=0.5, alpha=0.3)
 
     plt.tight_layout()
     os.makedirs(os.path.dirname(filename), exist_ok=True)
