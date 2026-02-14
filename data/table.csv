@@ -1,16 +1,16 @@
 Place,Team_Short,Team,Games,Points,Wins,Loses,Pts_Scored,Pts_Lost,Pts_Diff
-1,AST,Enea Abramczyk Astoria Bydgoszcz,21,39,18,3,1900,1634,266
-2,STG,SKS Fulimpex Starogard Gdański,22,38,16,6,1871,1745,126
-3,PEL,Decka Pelplin,23,37,14,9,1976,1891,85
-4,ŁAŃ,Solvera Sokół Łańcut,23,37,14,9,1949,1972,-23
-5,ŁKS,ŁKS Coolpack Łódź,20,35,15,5,1737,1558,179
-6,GKS,GKS Tychy,22,35,13,9,1800,1817,-17
-7,WKK,WKK Active Hotel Wrocław,22,33,11,11,1784,1799,-15
-8,POZ,Enea Basket Poznań,22,33,11,11,1765,1744,21
-9,SPÓ,PGE Spójnia Stargard,21,33,12,9,1718,1703,15
-10,LES,Novimex Polonia 1912 Leszno,22,32,10,12,1728,1816,-88
-11,RES,OPTeam Energia Polska Resovia,22,31,9,13,1813,1846,-33
-12,WAR,KKS Polonia Warszawa,21,31,10,11,1692,1764,-72
+1,STG,SKS Fulimpex Starogard Gdański,23,39,16,7,1957,1844,113
+2,AST,Enea Abramczyk Astoria Bydgoszcz,21,39,18,3,1900,1634,266
+3,GKS,GKS Tychy,23,37,14,9,1896,1905,-9
+4,PEL,Decka Pelplin,23,37,14,9,1976,1891,85
+5,ŁAŃ,Solvera Sokół Łańcut,23,37,14,9,1949,1972,-23
+6,ŁKS,ŁKS Coolpack Łódź,20,35,15,5,1737,1558,179
+7,POZ,Enea Basket Poznań,22,33,11,11,1765,1744,21
+8,WKK,WKK Active Hotel Wrocław,22,33,11,11,1784,1799,-15
+9,LES,Novimex Polonia 1912 Leszno,23,33,10,13,1816,1912,-96
+10,WAR,KKS Polonia Warszawa,22,33,11,11,1791,1850,-59
+11,SPÓ,PGE Spójnia Stargard,21,33,12,9,1718,1703,15
+12,RES,OPTeam Energia Polska Resovia,22,31,9,13,1813,1846,-33
 13,KOT,Kotwica Port Morski Kołobrzeg,20,29,9,11,1591,1538,53
 14,INO,KSK Qemetica Noteć Inowrocław,22,29,7,15,1771,1868,-97
 15,OPO,Weegree AZS Politechnika Opolska,21,28,7,14,1699,1748,-49
