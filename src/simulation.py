@@ -57,6 +57,8 @@ class MonteCarloEngine:
             for rank, (team, final_pts) in enumerate(standings_list):
                 stats[team]['expected_pts'] += final_pts
 
+                stats[team]['positions'][rank] += 1
+
                 if rank == 0:
                     stats[team]['win'] += 1
 
