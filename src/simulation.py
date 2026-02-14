@@ -37,10 +37,15 @@ class MonteCarloEngine:
     
     def run(self, iterations):
         print("\n Monte Carlo simulation started")
-
-        stats = defaultdict(lambda: {'win': 0, 'playoff': 0, 'relegation': 0, 'expected_pts': 0})
-
         num_teams = len(self.current_standings)
+
+        stats = defaultdict(lambda: {
+            'win': 0, 
+            'playoff': 0, 
+            'relegation': 0, 
+            'expected_pts': 0,
+            'positions': [0] * num_teams
+        })
 
         for i in range(iterations):
             final_points = self._simulate_single_season()
@@ -69,13 +74,20 @@ class MonteCarloEngine:
 
             exp_points = team_stats['expected_pts'] / iterations
 
-            results.append({
+            row_data = ({
                 'Team': team,
                 'Expected_Points': round(exp_points, 1),
                 'Win_Probability': round((team_stats['win'] / iterations) * 100, 4),
                 'Playoff_Probability': round((team_stats['playoff'] / iterations) * 100, 4),
                 'Relegation_Probability': round((team_stats['relegation'] / iterations) * 100, 4)
             })
+
+            for rank in range(num_teams):
+                col_name = f"Pos_{rank + 1}"
+                prob = (team_stats['positions'][rank] / iterations) * 100
+                row_data[col_name] = round(prob, 4)
+
+            results.append(row_data)
         
         results.sort(key = lambda x: x['Expected_Points'], reverse=True)
         
