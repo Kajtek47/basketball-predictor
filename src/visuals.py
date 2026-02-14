@@ -5,7 +5,7 @@ import seaborn as sns
 import pandas as pd
 import os
 
-def draw_table_with_logos(df_results, filename='data/visualisations/visual_table.png'):
+def draw_table_with_logos(df_results, filename='visualisations/visual_table.png'):
     if df_results.empty:
         return
     
