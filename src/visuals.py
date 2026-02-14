@@ -102,22 +102,45 @@ def plot_position_matrix(df_results, filename='visualisations/position_matrix.pn
     matrix_data = df_results.set_index('Team')[pos_cols]
     matrix_data.columns = [c.split('_')[1] for c in pos_cols]
 
-    plt.figure(figsize=(14, len(matrix_data) * 0.6 + 1))
     matrix_data = matrix_data.replace(0.0, np.nan)
+
+    fig, ax = plt.subplots(figsize=(16, len(matrix_data) * 0.7 + 1))
+
     sns.heatmap(matrix_data,
                 cmap='YlOrRd',
                 annot=True,
                 fmt='.2f',
                 annot_kws={"size": 9},
                 linewidths=.5,
-                linecolor='lightgray', 
-                cbar_kws={'label': 'Probability (%)'})
+                linecolor='lightgray',
+                yticklabels=False, 
+                cbar_kws={'label': 'Probability (%)', 'shrink': 0.8})
 
     plt.title('Position Matrix: probability of getting a certain place', fontsize=16, pad=20)
     plt.xlabel('Place', fontsize=12)
     plt.ylabel('')
-    plt.xticks(rotation=0)
-    plt.tight_layout()
+
+    logos_folder = 'data/logos/'
+    teams = matrix_data.index
+
+    for i, team in enumerate(teams):
+        logo_path = os.path.join(logos_folder, f"{team}.png")
+
+        if os.path.exists(logo_path):
+            img = mpimg.imread(logo_path)
+
+            imagebox = OffsetImage(img, zoom=0.2)
+
+            ab = AnnotationBbox(imagebox, (0, i + 0.5),
+                                xybox=(-20, 0),
+                                xycoords=('data', 'data'),
+                                boxcoords="offset points",
+                                frameon=False)
+            ax.add_artist(ab)
+        else:
+            ax.text(-0.2, i + 0.5, team, ha='right', va='center', weight='bold')
+
+    plt.subplots_adjust(left=0.15)
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     plt.savefig(filename, dpi=300)
     plt.close()
