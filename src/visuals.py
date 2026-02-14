@@ -41,7 +41,7 @@ def draw_table_with_logos(df_results, filename='data/visual_table.png'):
 
         if os.path.exists(logo_path):
             img = mpimg.imread(logo_path)
-            imagebox = OffsetImage(img, zoom=0.3)
+            imagebox = OffsetImage(img, zoom=0.2)
             ab = AnnotationBbox(imagebox, (0.5, y), frameon=False, box_alignment=(0.5, 0.5))
             ax.add_artist(ab)
         else:
@@ -55,25 +55,25 @@ def draw_table_with_logos(df_results, filename='data/visual_table.png'):
             alpha = value / max_val
             if alpha > 1: alpha = 1
             if is_bad:
-                return (1, 0, 0, alpha * 0.5)
-            return (0, 0.5, 0, alpha * 0.5)
+                return (1, 0, 0, alpha * 0.7)
+            return (0, 0.5, 0, alpha * 0.7)
         
         # Expected points
         ax.text(col_pos[1], y, f"{row.Expected_Points:.1f}", ha='center', va='center', fontsize=11)
 
         # Top1 probability (green)
         c_win = get_color(row.Win_Probability)
-        ax.text(col_pos[2], y, f"{row.Win_Probability:.1f}%", ha='center', va='center',
+        ax.text(col_pos[2], y, f"{row.Win_Probability:.2f}%", ha='center', va='center',
                 bbox=dict(facecolor=c_win, edgecolor='none', pad=3))
         
         # Playoff probability (green/yellow)
         c_po = get_color(row.Playoff_Probability)
-        ax.text(col_pos[3], y, f"{row.Playoff_Probability:.1f}%", ha='center', va='center',
+        ax.text(col_pos[3], y, f"{row.Playoff_Probability:.2f}%", ha='center', va='center',
                 bbox=dict(facecolor=c_po, edgecolor='none', pad=3))
         
         # Relegation probability (red)
         c_rel = get_color(row.Relegation_Probability, is_bad=True)
-        ax.text(col_pos[4], y, f"{row.Relegation_Probability:.1f}%", ha='center', va='center',
+        ax.text(col_pos[4], y, f"{row.Relegation_Probability:.2f}%", ha='center', va='center',
                 bbox=dict(facecolor=c_rel, edgecolor='none', pad=3))
         
         ax.plot([0,10], [y-0.5, y-0.5], color='gray', linewidth=0.5, alpha=0.3)
