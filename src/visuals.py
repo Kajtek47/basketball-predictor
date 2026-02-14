@@ -4,6 +4,7 @@ import matplotlib.image as mpimg
 import seaborn as sns
 import pandas as pd
 import os
+import numpy as np
 
 def draw_table_with_logos(df_results, filename='visualisations/visual_table.png'):
     if df_results.empty:
@@ -102,7 +103,15 @@ def plot_position_matrix(df_results, filename='visualisations/position_matrix.pn
     matrix_data.columns = [c.split('_')[1] for c in pos_cols]
 
     plt.figure(figsize=(14, len(matrix_data) * 0.6 + 1))
-    sns.heatmap(matrix_data, cmap='Blues', annot=False, linewidths=.5, linecolor='lightgray', cbar_kws={'label': 'Probability (%)'})
+    matrix_data = matrix_data.replace(0.0, np.nan)
+    sns.heatmap(matrix_data,
+                cmap='YlOrRd',
+                annot=True,
+                fmt='.2f',
+                annot_kws={"size": 9},
+                linewidths=.5,
+                linecolor='lightgray', 
+                cbar_kws={'label': 'Probability (%)'})
 
     plt.title('Position Matrix: probability of getting a certain place', fontsize=16, pad=20)
     plt.xlabel('Place', fontsize=12)
