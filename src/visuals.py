@@ -4,8 +4,9 @@ import matplotlib.image as mpimg
 import seaborn as sns
 import pandas as pd
 import os
+import numpy as np
 
-def draw_table_with_logos(df_results, filename='data/visualisations/visual_table.png'):
+def draw_table_with_logos(df_results, filename='visualisations/visual_table.png'):
     if df_results.empty:
         return
     
@@ -90,3 +91,34 @@ def draw_table_with_logos(df_results, filename='data/visualisations/visual_table
     plt.savefig(filename, dpi=300, bbox_inches='tight')
     plt.close()
     print(f"Table saved in {filename}")
+
+def plot_position_matrix(df_results, filename='visualisations/position_matrix.png'):
+    if df_results.empty:
+        return
+    
+    pos_cols = [c for c in df_results.columns if c.startswith('Pos_')]
+    pos_cols.sort(key=lambda x: int(x.split('_')[1]))
+
+    matrix_data = df_results.set_index('Team')[pos_cols]
+    matrix_data.columns = [c.split('_')[1] for c in pos_cols]
+
+    plt.figure(figsize=(14, len(matrix_data) * 0.6 + 1))
+    matrix_data = matrix_data.replace(0.0, np.nan)
+    sns.heatmap(matrix_data,
+                cmap='YlOrRd',
+                annot=True,
+                fmt='.2f',
+                annot_kws={"size": 9},
+                linewidths=.5,
+                linecolor='lightgray', 
+                cbar_kws={'label': 'Probability (%)'})
+
+    plt.title('Position Matrix: probability of getting a certain place', fontsize=16, pad=20)
+    plt.xlabel('Place', fontsize=12)
+    plt.ylabel('')
+    plt.xticks(rotation=0)
+    plt.tight_layout()
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    plt.savefig(filename, dpi=300)
+    plt.close()
+    print(f"Position matrix saved in {filename}")

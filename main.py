@@ -3,7 +3,7 @@ import pandas as pd
 from src import scraper
 from src.elo import EloEngine
 from src.simulation import MonteCarloEngine
-from src.visuals import draw_table_with_logos
+from src.visuals import draw_table_with_logos, plot_position_matrix
 
 # Path configuration
 DATA_DIR = 'data'
@@ -55,6 +55,7 @@ def main():
     # Visualisation
     print("Visualisations are being generated")
     draw_table_with_logos(df_results)
+    plot_position_matrix(df_results)
                           
 if __name__ == "__main__":
     main()
