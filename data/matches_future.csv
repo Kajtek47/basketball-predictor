@@ -1,29 +1,26 @@
 Date,Home,Home_Short,Away,Away_Short
-2026-02-14,Miners Katowice,KAT,KSK Qemetica Noteć Inowrocław,INO
-2026-02-14,Żubry Abakus Okna Białystok,BIA,PGE Spójnia Stargard,SPÓ
-2026-02-14,Weegree AZS Politechnika Opolska,OPO,ŁKS Coolpack Łódź,ŁKS
 2026-02-15,Enea Abramczyk Astoria Bydgoszcz,AST,Kotwica Port Morski Kołobrzeg,KOT
-2026-02-21,Novimex Polonia 1912 Leszno,LES,Solvera Sokół Łańcut,ŁAŃ
-2026-02-21,KKS Polonia Warszawa,WAR,GKS Tychy,GKS
-2026-02-21,ŁKS Coolpack Łódź,ŁKS,Enea Abramczyk Astoria Bydgoszcz,AST
-2026-02-21,PGE Spójnia Stargard,SPÓ,Enea Basket Poznań,POZ
 2026-02-21,Kotwica Port Morski Kołobrzeg,KOT,Żubry Abakus Okna Białystok,BIA
-2026-02-22,Weegree AZS Politechnika Opolska,OPO,Decka Pelplin,PEL
+2026-02-21,PGE Spójnia Stargard,SPÓ,Enea Basket Poznań,POZ
+2026-02-21,ŁKS Coolpack Łódź,ŁKS,Enea Abramczyk Astoria Bydgoszcz,AST
+2026-02-21,KKS Polonia Warszawa,WAR,GKS Tychy,GKS
+2026-02-21,Novimex Polonia 1912 Leszno,LES,Solvera Sokół Łańcut,ŁAŃ
 2026-02-22,WKK Active Hotel Wrocław,WKK,Miners Katowice,KAT
+2026-02-22,Weegree AZS Politechnika Opolska,OPO,Decka Pelplin,PEL
 2026-02-22,KSK Qemetica Noteć Inowrocław,INO,SKS Fulimpex Starogard Gdański,STG
-2026-02-28,Żubry Abakus Okna Białystok,BIA,ŁKS Coolpack Łódź,ŁKS
 2026-02-28,Enea Basket Poznań,POZ,Kotwica Port Morski Kołobrzeg,KOT
 2026-02-28,OPTeam Energia Polska Resovia,RES,PGE Spójnia Stargard,SPÓ
 2026-02-28,GKS Tychy,GKS,KSK Qemetica Noteć Inowrocław,INO
+2026-02-28,Żubry Abakus Okna Białystok,BIA,ŁKS Coolpack Łódź,ŁKS
 2026-02-28,Solvera Sokół Łańcut,ŁAŃ,KKS Polonia Warszawa,WAR
-2026-03-01,Enea Abramczyk Astoria Bydgoszcz,AST,Weegree AZS Politechnika Opolska,OPO
 2026-03-01,Decka Pelplin,PEL,Novimex Polonia 1912 Leszno,LES
+2026-03-01,Enea Abramczyk Astoria Bydgoszcz,AST,Weegree AZS Politechnika Opolska,OPO
 2026-03-04,SKS Fulimpex Starogard Gdański,STG,WKK Active Hotel Wrocław,WKK
 2026-03-06,Kotwica Port Morski Kołobrzeg,KOT,OPTeam Energia Polska Resovia,RES
 2026-03-07,KKS Polonia Warszawa,WAR,Novimex Polonia 1912 Leszno,LES
+2026-03-07,KSK Qemetica Noteć Inowrocław,INO,Solvera Sokół Łańcut,ŁAŃ
 2026-03-07,Enea Abramczyk Astoria Bydgoszcz,AST,Decka Pelplin,PEL
 2026-03-07,Weegree AZS Politechnika Opolska,OPO,Żubry Abakus Okna Białystok,BIA
-2026-03-07,KSK Qemetica Noteć Inowrocław,INO,Solvera Sokół Łańcut,ŁAŃ
 2026-03-08,ŁKS Coolpack Łódź,ŁKS,Enea Basket Poznań,POZ
 2026-03-08,WKK Active Hotel Wrocław,WKK,GKS Tychy,GKS
 2026-03-08,PGE Spójnia Stargard,SPÓ,Miners Katowice,KAT
@@ -36,16 +33,16 @@ Date,Home,Home_Short,Away,Away_Short
 2026-03-14,Żubry Abakus Okna Białystok,BIA,Enea Abramczyk Astoria Bydgoszcz,AST
 2026-03-14,SKS Fulimpex Starogard Gdański,STG,PGE Spójnia Stargard,SPÓ
 2026-03-15,OPTeam Energia Polska Resovia,RES,ŁKS Coolpack Łódź,ŁKS
-2026-03-21,Kotwica Port Morski Kołobrzeg,KOT,SKS Fulimpex Starogard Gdański,STG
 2026-03-21,Enea Abramczyk Astoria Bydgoszcz,AST,Enea Basket Poznań,POZ
+2026-03-21,KSK Qemetica Noteć Inowrocław,INO,KKS Polonia Warszawa,WAR
 2026-03-21,WKK Active Hotel Wrocław,WKK,Novimex Polonia 1912 Leszno,LES
 2026-03-21,PGE Spójnia Stargard,SPÓ,GKS Tychy,GKS
-2026-03-21,KSK Qemetica Noteć Inowrocław,INO,KKS Polonia Warszawa,WAR
+2026-03-21,Kotwica Port Morski Kołobrzeg,KOT,SKS Fulimpex Starogard Gdański,STG
 2026-03-21,Żubry Abakus Okna Białystok,BIA,Decka Pelplin,PEL
 2026-03-21,ŁKS Coolpack Łódź,ŁKS,Miners Katowice,KAT
 2026-03-22,Weegree AZS Politechnika Opolska,OPO,OPTeam Energia Polska Resovia,RES
-2026-03-28,Enea Basket Poznań,POZ,Żubry Abakus Okna Białystok,BIA
 2026-03-28,Miners Katowice,KAT,Weegree AZS Politechnika Opolska,OPO
+2026-03-28,Enea Basket Poznań,POZ,Żubry Abakus Okna Białystok,BIA
 2026-03-28,Decka Pelplin,PEL,KSK Qemetica Noteć Inowrocław,INO
 2026-03-28,KKS Polonia Warszawa,WAR,WKK Active Hotel Wrocław,WKK
 2026-03-28,GKS Tychy,GKS,Kotwica Port Morski Kołobrzeg,KOT
