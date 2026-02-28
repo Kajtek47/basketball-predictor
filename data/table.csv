@@ -1,18 +1,18 @@
 Place,Team_Short,Team,Games,Points,Wins,Loses,Pts_Scored,Pts_Lost,Pts_Diff
 1,AST,Enea Abramczyk Astoria Bydgoszcz,23,43,20,3,2051,1773,278
 2,GKS,GKS Tychy,25,41,16,9,2075,2033,42
-3,STG,SKS Fulimpex Starogard Gdański,24,40,16,8,2027,1923,104
-4,PEL,Decka Pelplin,24,39,15,9,2082,1974,108
-5,ŁKS,ŁKS Coolpack Łódź,23,39,16,7,1995,1814,181
-6,ŁAŃ,Solvera Sokół Łańcut,24,39,15,9,2041,2061,-20
-7,SPÓ,PGE Spójnia Stargard,23,37,14,9,1904,1849,55
-8,POZ,Enea Basket Poznań,23,34,11,12,1842,1826,16
-9,WKK,WKK Active Hotel Wrocław,23,34,11,12,1876,1893,-17
-10,INO,KSK Qemetica Noteć Inowrocław,25,34,9,16,1992,2105,-113
-11,WAR,KKS Polonia Warszawa,23,34,11,12,1846,1919,-73
-12,LES,Novimex Polonia 1912 Leszno,24,34,10,14,1905,2004,-99
-13,KOT,Kotwica Port Morski Kołobrzeg,22,32,10,12,1750,1687,63
-14,RES,OPTeam Energia Polska Resovia,22,31,9,13,1813,1846,-33
+3,ŁAŃ,Solvera Sokół Łańcut,25,41,16,9,2141,2160,-19
+4,STG,SKS Fulimpex Starogard Gdański,24,40,16,8,2027,1923,104
+5,SPÓ,PGE Spójnia Stargard,24,39,15,9,1981,1921,60
+6,PEL,Decka Pelplin,24,39,15,9,2082,1974,108
+7,ŁKS,ŁKS Coolpack Łódź,23,39,16,7,1995,1814,181
+8,WAR,KKS Polonia Warszawa,24,35,11,13,1945,2019,-74
+9,POZ,Enea Basket Poznań,24,35,11,13,1928,1928,0
+10,WKK,WKK Active Hotel Wrocław,23,34,11,12,1876,1893,-17
+11,KOT,Kotwica Port Morski Kołobrzeg,23,34,11,12,1852,1773,79
+12,INO,KSK Qemetica Noteć Inowrocław,25,34,9,16,1992,2105,-113
+13,LES,Novimex Polonia 1912 Leszno,24,34,10,14,1905,2004,-99
+14,RES,OPTeam Energia Polska Resovia,23,32,9,14,1885,1923,-38
 15,OPO,Weegree AZS Politechnika Opolska,23,30,7,16,1876,1958,-82
 16,KAT,Miners Katowice,24,30,6,18,1918,2057,-139
 17,BIA,Żubry Abakus Okna Białystok,23,26,3,20,1765,2036,-271
