@@ -1,18 +1,18 @@
 Place,Team_Short,Team,Games,Points,Wins,Loses,Pts_Scored,Pts_Lost,Pts_Diff
-1,AST,Enea Abramczyk Astoria Bydgoszcz,27,51,24,3,2415,2073,342
-2,PEL,Decka Pelplin,28,45,17,11,2416,2330,86
-3,SPÓ,PGE Spójnia Stargard,27,45,18,9,2243,2165,78
-4,ŁAŃ,Solvera Sokół Łańcut,27,45,18,9,2338,2341,-3
-5,ŁKS,ŁKS Coolpack Łódź,26,44,18,8,2266,2066,200
-6,STG,SKS Fulimpex Starogard Gdański,27,44,17,10,2260,2160,100
-7,GKS,GKS Tychy,27,43,16,11,2225,2197,28
-8,KOT,Kotwica Port Morski Kołobrzeg,26,40,14,12,2127,1992,135
-9,WKK,WKK Active Hotel Wrocław,27,39,12,15,2195,2226,-31
-10,LES,Novimex Polonia 1912 Leszno,27,39,12,15,2128,2220,-92
-11,WAR,KKS Polonia Warszawa,26,38,12,14,2106,2175,-69
-12,POZ,Enea Basket Poznań,27,38,11,16,2160,2196,-36
-13,INO,KSK Qemetica Noteć Inowrocław,27,36,9,18,2145,2278,-133
-14,RES,OPTeam Energia Polska Resovia,26,36,10,16,2119,2183,-64
-15,OPO,Weegree AZS Politechnika Opolska,26,35,9,17,2127,2198,-71
-16,KAT,Miners Katowice,27,34,7,20,2171,2333,-162
-17,BIA,Żubry Abakus Okna Białystok,26,29,3,23,1989,2297,-308
+1,AST,Enea Abramczyk Astoria Bydgoszcz,28,52,24,4,2486,2152,334
+2,ŁAŃ,Solvera Sokół Łańcut,28,47,19,9,2417,2412,5
+3,STG,SKS Fulimpex Starogard Gdański,28,46,18,10,2353,2244,109
+4,SPÓ,PGE Spójnia Stargard,27,45,18,9,2243,2165,78
+5,PEL,Decka Pelplin,28,45,17,11,2416,2330,86
+6,ŁKS,ŁKS Coolpack Łódź,27,45,18,9,2332,2156,176
+7,GKS,GKS Tychy,28,45,17,11,2314,2272,42
+8,KOT,Kotwica Port Morski Kołobrzeg,27,41,14,13,2198,2087,111
+9,WKK,WKK Active Hotel Wrocław,28,41,13,15,2276,2295,-19
+10,WAR,KKS Polonia Warszawa,28,41,13,15,2263,2320,-57
+11,INO,KSK Qemetica Noteć Inowrocław,29,40,11,18,2319,2416,-97
+12,LES,Novimex Polonia 1912 Leszno,28,40,12,16,2197,2301,-104
+13,POZ,Enea Basket Poznań,28,39,11,17,2244,2289,-45
+14,RES,OPTeam Energia Polska Resovia,28,39,11,17,2271,2332,-61
+15,OPO,Weegree AZS Politechnika Opolska,27,37,10,17,2203,2272,-69
+16,KAT,Miners Katowice,28,35,7,21,2244,2411,-167
+17,BIA,Żubry Abakus Okna Białystok,27,30,3,24,2064,2386,-322
