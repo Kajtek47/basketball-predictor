@@ -1,7 +1,7 @@
 Place,Team_Short,Team,Games,Points,Wins,Loses,Pts_Scored,Pts_Lost,Pts_Diff
 1,AST,Enea Abramczyk Astoria Bydgoszcz,29,53,24,5,2561,2240,321
-2,ŁAŃ,Solvera Sokół Łańcut,29,49,20,9,2497,2490,7
-3,SPÓ,PGE Spójnia Stargard,29,48,19,10,2410,2325,85
+2,SPÓ,PGE Spójnia Stargard,30,50,20,10,2492,2400,92
+3,ŁAŃ,Solvera Sokół Łańcut,29,49,20,9,2497,2490,7
 4,ŁKS,ŁKS Coolpack Łódź,29,48,19,10,2495,2301,194
 5,STG,SKS Fulimpex Starogard Gdański,29,48,19,10,2432,2316,116
 6,GKS,GKS Tychy,29,47,18,11,2403,2355,48
@@ -10,9 +10,9 @@ Place,Team_Short,Team,Games,Points,Wins,Loses,Pts_Scored,Pts_Lost,Pts_Diff
 9,KOT,Kotwica Port Morski Kołobrzeg,29,43,14,15,2347,2267,80
 10,WKK,WKK Active Hotel Wrocław,30,43,13,17,2424,2461,-37
 11,INO,KSK Qemetica Noteć Inowrocław,30,42,12,18,2398,2486,-88
-12,RES,OPTeam Energia Polska Resovia,29,41,12,17,2359,2407,-48
-13,OPO,Weegree AZS Politechnika Opolska,29,41,12,17,2371,2424,-53
-14,LES,Novimex Polonia 1912 Leszno,29,41,12,17,2272,2390,-118
+12,LES,Novimex Polonia 1912 Leszno,30,42,12,18,2347,2472,-125
+13,RES,OPTeam Energia Polska Resovia,29,41,12,17,2359,2407,-48
+14,OPO,Weegree AZS Politechnika Opolska,29,41,12,17,2371,2424,-53
 15,POZ,Enea Basket Poznań,29,40,11,18,2328,2379,-51
 16,KAT,Miners Katowice,29,36,7,22,2321,2490,-169
 17,BIA,Żubry Abakus Okna Białystok,29,34,5,24,2244,2550,-306
