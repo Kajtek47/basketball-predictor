@@ -1,9 +1,193 @@
 Date,Home,Home_Short,Away,Away_Short
-2026-04-15,OPTeam Energia Polska Resovia,RES,Decka Pelplin,PEL
-2026-04-15,Enea Basket Poznań,POZ,Miners Katowice,KAT
-2026-04-15,Żubry Abakus Okna Białystok,BIA,SKS Fulimpex Starogard Gdański,STG
-2026-04-15,Enea Abramczyk Astoria Bydgoszcz,AST,GKS Tychy,GKS
-2026-04-15,Weegree AZS Politechnika Opolska,OPO,Solvera Sokół Łańcut,ŁAŃ
-2026-04-15,ŁKS Coolpack Łódź,ŁKS,Novimex Polonia 1912 Leszno,LES
-2026-04-15,Kotwica Port Morski Kołobrzeg,KOT,KKS Polonia Warszawa,WAR
-2026-04-15,PGE Spójnia Stargard,SPÓ,KSK Qemetica Noteć Inowrocław,INO
+2026-10-31,GKS Tychy,GKS,WKK Active Hotel Wrocław,WKK
+2026-10-31,KKS Polonia Warszawa,WAR,Decka Pelplin,PEL
+2026-10-31,SKS Fulimpex Starogard Gdański,STG,OPTeam Resovia Rzeszów,OPT
+2026-10-31,Weegree AZS Politechnika Opolska,OPO,Datzzy Kotwica Port Kołobrzeg,DAT
+2026-10-31,Miasto Szkła Krosno,MIA,Solvera Sokół Łańcut,ŁAŃ
+2026-10-31,PGE Spójnia Stargard,SPÓ,ŁKS Coolpack Łódź,ŁKS
+2026-10-31,BS Polonia Bytom,BS ,Zdrovo Polonia 1912 Leszno,ZDR
+2026-10-31,Enea Basket Poznań,POZ,KSK Qemetica Noteć Inowrocław,INO
+2026-11-05,Datzzy Kotwica Port Kołobrzeg,DAT,Miasto Szkła Krosno,MIA
+2026-11-06,OPTeam Resovia Rzeszów,OPT,GKS Tychy,GKS
+2026-11-07,Decka Pelplin,PEL,ŁKS Coolpack Łódź,ŁKS
+2026-11-07,Solvera Sokół Łańcut,ŁAŃ,PGE Spójnia Stargard,SPÓ
+2026-11-07,Zdrovo Polonia 1912 Leszno,ZDR,Enea Basket Poznań,POZ
+2026-11-08,KSK Qemetica Noteć Inowrocław,INO,Weegree AZS Politechnika Opolska,OPO
+2026-11-08,WKK Active Hotel Wrocław,WKK,BS Polonia Bytom,BS 
+2026-11-08,KKS Polonia Warszawa,WAR,SKS Fulimpex Starogard Gdański,STG
+2026-11-14,Miasto Szkła Krosno,MIA,KSK Qemetica Noteć Inowrocław,INO
+2026-11-14,GKS Tychy,GKS,KKS Polonia Warszawa,WAR
+2026-11-14,PGE Spójnia Stargard,SPÓ,Datzzy Kotwica Port Kołobrzeg,DAT
+2026-11-14,SKS Fulimpex Starogard Gdański,STG,Decka Pelplin,PEL
+2026-11-15,Weegree AZS Politechnika Opolska,OPO,Zdrovo Polonia 1912 Leszno,ZDR
+2026-11-15,Enea Basket Poznań,POZ,WKK Active Hotel Wrocław,WKK
+2026-11-15,ŁKS Coolpack Łódź,ŁKS,Solvera Sokół Łańcut,ŁAŃ
+2026-11-15,OPTeam Resovia Rzeszów,OPT,BS Polonia Bytom,BS 
+2026-11-19,Datzzy Kotwica Port Kołobrzeg,DAT,ŁKS Coolpack Łódź,ŁKS
+2026-11-20,KSK Qemetica Noteć Inowrocław,INO,PGE Spójnia Stargard,SPÓ
+2026-11-21,Decka Pelplin,PEL,Solvera Sokół Łańcut,ŁAŃ
+2026-11-22,OPTeam Resovia Rzeszów,OPT,Enea Basket Poznań,POZ
+2026-11-22,WKK Active Hotel Wrocław,WKK,Weegree AZS Politechnika Opolska,OPO
+2026-11-22,SKS Fulimpex Starogard Gdański,STG,GKS Tychy,GKS
+2026-11-22,Zdrovo Polonia 1912 Leszno,ZDR,Miasto Szkła Krosno,MIA
+2026-11-23,KKS Polonia Warszawa,WAR,BS Polonia Bytom,BS 
+2026-11-27,WKK Active Hotel Wrocław,WKK,Miasto Szkła Krosno,MIA
+2026-11-28,BS Polonia Bytom,BS ,SKS Fulimpex Starogard Gdański,STG
+2026-11-28,GKS Tychy,GKS,Decka Pelplin,PEL
+2026-11-28,Solvera Sokół Łańcut,ŁAŃ,Datzzy Kotwica Port Kołobrzeg,DAT
+2026-11-28,Zdrovo Polonia 1912 Leszno,ZDR,PGE Spójnia Stargard,SPÓ
+2026-11-28,ŁKS Coolpack Łódź,ŁKS,KSK Qemetica Noteć Inowrocław,INO
+2026-11-29,Enea Basket Poznań,POZ,KKS Polonia Warszawa,WAR
+2026-11-29,Weegree AZS Politechnika Opolska,OPO,OPTeam Resovia Rzeszów,OPT
+2026-12-05,Zdrovo Polonia 1912 Leszno,ZDR,ŁKS Coolpack Łódź,ŁKS
+2026-12-05,Enea Basket Poznań,POZ,SKS Fulimpex Starogard Gdański,STG
+2026-12-05,KKS Polonia Warszawa,WAR,Weegree AZS Politechnika Opolska,OPO
+2026-12-05,GKS Tychy,GKS,BS Polonia Bytom,BS 
+2026-12-05,KSK Qemetica Noteć Inowrocław,INO,Solvera Sokół Łańcut,ŁAŃ
+2026-12-05,Decka Pelplin,PEL,Datzzy Kotwica Port Kołobrzeg,DAT
+2026-12-05,WKK Active Hotel Wrocław,WKK,PGE Spójnia Stargard,SPÓ
+2026-12-06,OPTeam Resovia Rzeszów,OPT,Miasto Szkła Krosno,MIA
+2026-12-12,BS Polonia Bytom,BS ,Decka Pelplin,PEL
+2026-12-12,Enea Basket Poznań,POZ,GKS Tychy,GKS
+2026-12-12,Weegree AZS Politechnika Opolska,OPO,SKS Fulimpex Starogard Gdański,STG
+2026-12-12,Miasto Szkła Krosno,MIA,KKS Polonia Warszawa,WAR
+2026-12-12,PGE Spójnia Stargard,SPÓ,OPTeam Resovia Rzeszów,OPT
+2026-12-12,ŁKS Coolpack Łódź,ŁKS,WKK Active Hotel Wrocław,WKK
+2026-12-12,Solvera Sokół Łańcut,ŁAŃ,Zdrovo Polonia 1912 Leszno,ZDR
+2026-12-12,Datzzy Kotwica Port Kołobrzeg,DAT,KSK Qemetica Noteć Inowrocław,INO
+2026-12-18,SKS Fulimpex Starogard Gdański,STG,Miasto Szkła Krosno,MIA
+2026-12-18,GKS Tychy,GKS,Weegree AZS Politechnika Opolska,OPO
+2026-12-18,Zdrovo Polonia 1912 Leszno,ZDR,Datzzy Kotwica Port Kołobrzeg,DAT
+2026-12-19,Decka Pelplin,PEL,KSK Qemetica Noteć Inowrocław,INO
+2026-12-19,Solvera Sokół Łańcut,ŁAŃ,WKK Active Hotel Wrocław,WKK
+2026-12-19,OPTeam Resovia Rzeszów,OPT,ŁKS Coolpack Łódź,ŁKS
+2026-12-19,KKS Polonia Warszawa,WAR,PGE Spójnia Stargard,SPÓ
+2026-12-19,BS Polonia Bytom,BS ,Enea Basket Poznań,POZ
+2026-12-22,Miasto Szkła Krosno,MIA,GKS Tychy,GKS
+2026-12-23,PGE Spójnia Stargard,SPÓ,SKS Fulimpex Starogard Gdański,STG
+2026-12-27,Enea Basket Poznań,POZ,Decka Pelplin,PEL
+2026-12-27,KSK Qemetica Noteć Inowrocław,INO,Zdrovo Polonia 1912 Leszno,ZDR
+2026-12-27,Datzzy Kotwica Port Kołobrzeg,DAT,WKK Active Hotel Wrocław,WKK
+2026-12-27,ŁKS Coolpack Łódź,ŁKS,KKS Polonia Warszawa,WAR
+2026-12-27,Weegree AZS Politechnika Opolska,OPO,BS Polonia Bytom,BS 
+2026-12-27,Solvera Sokół Łańcut,ŁAŃ,OPTeam Resovia Rzeszów,OPT
+2027-01-02,Decka Pelplin,PEL,Zdrovo Polonia 1912 Leszno,ZDR
+2027-01-02,KSK Qemetica Noteć Inowrocław,INO,WKK Active Hotel Wrocław,WKK
+2027-01-02,Datzzy Kotwica Port Kołobrzeg,DAT,OPTeam Resovia Rzeszów,OPT
+2027-01-02,Solvera Sokół Łańcut,ŁAŃ,KKS Polonia Warszawa,WAR
+2027-01-02,ŁKS Coolpack Łódź,ŁKS,SKS Fulimpex Starogard Gdański,STG
+2027-01-02,PGE Spójnia Stargard,SPÓ,GKS Tychy,GKS
+2027-01-02,Miasto Szkła Krosno,MIA,BS Polonia Bytom,BS 
+2027-01-02,Weegree AZS Politechnika Opolska,OPO,Enea Basket Poznań,POZ
+2027-01-07,WKK Active Hotel Wrocław,WKK,Zdrovo Polonia 1912 Leszno,ZDR
+2027-01-09,Weegree AZS Politechnika Opolska,OPO,Decka Pelplin,PEL
+2027-01-09,Enea Basket Poznań,POZ,Miasto Szkła Krosno,MIA
+2027-01-09,BS Polonia Bytom,BS ,PGE Spójnia Stargard,SPÓ
+2027-01-09,GKS Tychy,GKS,ŁKS Coolpack Łódź,ŁKS
+2027-01-09,SKS Fulimpex Starogard Gdański,STG,Solvera Sokół Łańcut,ŁAŃ
+2027-01-09,KKS Polonia Warszawa,WAR,Datzzy Kotwica Port Kołobrzeg,DAT
+2027-01-09,OPTeam Resovia Rzeszów,OPT,KSK Qemetica Noteć Inowrocław,INO
+2027-01-16,PGE Spójnia Stargard,SPÓ,Enea Basket Poznań,POZ
+2027-01-16,ŁKS Coolpack Łódź,ŁKS,BS Polonia Bytom,BS 
+2027-01-16,Solvera Sokół Łańcut,ŁAŃ,GKS Tychy,GKS
+2027-01-16,Miasto Szkła Krosno,MIA,Weegree AZS Politechnika Opolska,OPO
+2027-01-16,KSK Qemetica Noteć Inowrocław,INO,KKS Polonia Warszawa,WAR
+2027-01-16,Decka Pelplin,PEL,WKK Active Hotel Wrocław,WKK
+2027-01-16,Datzzy Kotwica Port Kołobrzeg,DAT,SKS Fulimpex Starogard Gdański,STG
+2027-01-16,Zdrovo Polonia 1912 Leszno,ZDR,OPTeam Resovia Rzeszów,OPT
+2027-01-23,OPTeam Resovia Rzeszów,OPT,WKK Active Hotel Wrocław,WKK
+2027-01-23,Miasto Szkła Krosno,MIA,Decka Pelplin,PEL
+2027-01-23,Weegree AZS Politechnika Opolska,OPO,PGE Spójnia Stargard,SPÓ
+2027-01-23,Enea Basket Poznań,POZ,ŁKS Coolpack Łódź,ŁKS
+2027-01-23,BS Polonia Bytom,BS ,Solvera Sokół Łańcut,ŁAŃ
+2027-01-23,GKS Tychy,GKS,Datzzy Kotwica Port Kołobrzeg,DAT
+2027-01-23,SKS Fulimpex Starogard Gdański,STG,KSK Qemetica Noteć Inowrocław,INO
+2027-01-23,KKS Polonia Warszawa,WAR,Zdrovo Polonia 1912 Leszno,ZDR
+2027-01-29,Decka Pelplin,PEL,OPTeam Resovia Rzeszów,OPT
+2027-01-29,WKK Active Hotel Wrocław,WKK,KKS Polonia Warszawa,WAR
+2027-01-30,Zdrovo Polonia 1912 Leszno,ZDR,SKS Fulimpex Starogard Gdański,STG
+2027-01-30,KSK Qemetica Noteć Inowrocław,INO,GKS Tychy,GKS
+2027-01-30,Datzzy Kotwica Port Kołobrzeg,DAT,BS Polonia Bytom,BS 
+2027-01-30,Solvera Sokół Łańcut,ŁAŃ,Enea Basket Poznań,POZ
+2027-01-30,ŁKS Coolpack Łódź,ŁKS,Weegree AZS Politechnika Opolska,OPO
+2027-01-30,PGE Spójnia Stargard,SPÓ,Miasto Szkła Krosno,MIA
+2027-02-06,BS Polonia Bytom,BS ,KSK Qemetica Noteć Inowrocław,INO
+2027-02-06,SKS Fulimpex Starogard Gdański,STG,WKK Active Hotel Wrocław,WKK
+2027-02-06,GKS Tychy,GKS,Zdrovo Polonia 1912 Leszno,ZDR
+2027-02-06,KKS Polonia Warszawa,WAR,OPTeam Resovia Rzeszów,OPT
+2027-02-06,Enea Basket Poznań,POZ,Datzzy Kotwica Port Kołobrzeg,DAT
+2027-02-06,Miasto Szkła Krosno,MIA,ŁKS Coolpack Łódź,ŁKS
+2027-02-06,PGE Spójnia Stargard,SPÓ,Decka Pelplin,PEL
+2027-02-06,Solvera Sokół Łańcut,ŁAŃ,Weegree AZS Politechnika Opolska,OPO
+2027-02-13,Solvera Sokół Łańcut,ŁAŃ,Miasto Szkła Krosno,MIA
+2027-02-13,Datzzy Kotwica Port Kołobrzeg,DAT,Weegree AZS Politechnika Opolska,OPO
+2027-02-13,KSK Qemetica Noteć Inowrocław,INO,Enea Basket Poznań,POZ
+2027-02-13,ŁKS Coolpack Łódź,ŁKS,PGE Spójnia Stargard,SPÓ
+2027-02-13,WKK Active Hotel Wrocław,WKK,GKS Tychy,GKS
+2027-02-13,OPTeam Resovia Rzeszów,OPT,SKS Fulimpex Starogard Gdański,STG
+2027-02-13,Decka Pelplin,PEL,KKS Polonia Warszawa,WAR
+2027-02-13,Zdrovo Polonia 1912 Leszno,ZDR,BS Polonia Bytom,BS 
+2027-02-20,ŁKS Coolpack Łódź,ŁKS,Decka Pelplin,PEL
+2027-02-20,PGE Spójnia Stargard,SPÓ,Solvera Sokół Łańcut,ŁAŃ
+2027-02-20,Miasto Szkła Krosno,MIA,Datzzy Kotwica Port Kołobrzeg,DAT
+2027-02-20,Weegree AZS Politechnika Opolska,OPO,KSK Qemetica Noteć Inowrocław,INO
+2027-02-20,Enea Basket Poznań,POZ,Zdrovo Polonia 1912 Leszno,ZDR
+2027-02-20,BS Polonia Bytom,BS ,WKK Active Hotel Wrocław,WKK
+2027-02-20,GKS Tychy,GKS,OPTeam Resovia Rzeszów,OPT
+2027-02-20,SKS Fulimpex Starogard Gdański,STG,KKS Polonia Warszawa,WAR
+2027-02-27,Solvera Sokół Łańcut,ŁAŃ,ŁKS Coolpack Łódź,ŁKS
+2027-02-27,Datzzy Kotwica Port Kołobrzeg,DAT,PGE Spójnia Stargard,SPÓ
+2027-02-27,Zdrovo Polonia 1912 Leszno,ZDR,Weegree AZS Politechnika Opolska,OPO
+2027-02-27,KSK Qemetica Noteć Inowrocław,INO,Miasto Szkła Krosno,MIA
+2027-02-27,BS Polonia Bytom,BS ,OPTeam Resovia Rzeszów,OPT
+2027-02-27,KKS Polonia Warszawa,WAR,GKS Tychy,GKS
+2027-02-27,Decka Pelplin,PEL,SKS Fulimpex Starogard Gdański,STG
+2027-02-27,WKK Active Hotel Wrocław,WKK,Enea Basket Poznań,POZ
+2027-03-06,BS Polonia Bytom,BS ,KKS Polonia Warszawa,WAR
+2027-03-06,Enea Basket Poznań,POZ,OPTeam Resovia Rzeszów,OPT
+2027-03-06,Weegree AZS Politechnika Opolska,OPO,WKK Active Hotel Wrocław,WKK
+2027-03-06,GKS Tychy,GKS,SKS Fulimpex Starogard Gdański,STG
+2027-03-06,PGE Spójnia Stargard,SPÓ,KSK Qemetica Noteć Inowrocław,INO
+2027-03-06,ŁKS Coolpack Łódź,ŁKS,Datzzy Kotwica Port Kołobrzeg,DAT
+2027-03-06,Solvera Sokół Łańcut,ŁAŃ,Decka Pelplin,PEL
+2027-03-06,Miasto Szkła Krosno,MIA,Zdrovo Polonia 1912 Leszno,ZDR
+2027-03-13,Decka Pelplin,PEL,GKS Tychy,GKS
+2027-03-13,SKS Fulimpex Starogard Gdański,STG,BS Polonia Bytom,BS 
+2027-03-13,KKS Polonia Warszawa,WAR,Enea Basket Poznań,POZ
+2027-03-13,OPTeam Resovia Rzeszów,OPT,Weegree AZS Politechnika Opolska,OPO
+2027-03-13,Miasto Szkła Krosno,MIA,WKK Active Hotel Wrocław,WKK
+2027-03-13,PGE Spójnia Stargard,SPÓ,Zdrovo Polonia 1912 Leszno,ZDR
+2027-03-13,KSK Qemetica Noteć Inowrocław,INO,ŁKS Coolpack Łódź,ŁKS
+2027-03-13,Datzzy Kotwica Port Kołobrzeg,DAT,Solvera Sokół Łańcut,ŁAŃ
+2027-03-20,Weegree AZS Politechnika Opolska,OPO,KKS Polonia Warszawa,WAR
+2027-03-20,BS Polonia Bytom,BS ,GKS Tychy,GKS
+2027-03-20,Miasto Szkła Krosno,MIA,OPTeam Resovia Rzeszów,OPT
+2027-03-20,SKS Fulimpex Starogard Gdański,STG,Enea Basket Poznań,POZ
+2027-03-20,ŁKS Coolpack Łódź,ŁKS,Zdrovo Polonia 1912 Leszno,ZDR
+2027-03-20,Solvera Sokół Łańcut,ŁAŃ,KSK Qemetica Noteć Inowrocław,INO
+2027-03-20,PGE Spójnia Stargard,SPÓ,WKK Active Hotel Wrocław,WKK
+2027-03-21,Datzzy Kotwica Port Kołobrzeg,DAT,Decka Pelplin,PEL
+2027-03-24,Decka Pelplin,PEL,BS Polonia Bytom,BS 
+2027-03-24,GKS Tychy,GKS,Enea Basket Poznań,POZ
+2027-03-24,SKS Fulimpex Starogard Gdański,STG,Weegree AZS Politechnika Opolska,OPO
+2027-03-24,KKS Polonia Warszawa,WAR,Miasto Szkła Krosno,MIA
+2027-03-24,OPTeam Resovia Rzeszów,OPT,PGE Spójnia Stargard,SPÓ
+2027-03-24,WKK Active Hotel Wrocław,WKK,ŁKS Coolpack Łódź,ŁKS
+2027-03-24,Zdrovo Polonia 1912 Leszno,ZDR,Solvera Sokół Łańcut,ŁAŃ
+2027-03-24,KSK Qemetica Noteć Inowrocław,INO,Datzzy Kotwica Port Kołobrzeg,DAT
+2027-04-02,WKK Active Hotel Wrocław,WKK,Solvera Sokół Łańcut,ŁAŃ
+2027-04-03,Enea Basket Poznań,POZ,BS Polonia Bytom,BS 
+2027-04-03,Weegree AZS Politechnika Opolska,OPO,GKS Tychy,GKS
+2027-04-03,Miasto Szkła Krosno,MIA,SKS Fulimpex Starogard Gdański,STG
+2027-04-03,Datzzy Kotwica Port Kołobrzeg,DAT,Zdrovo Polonia 1912 Leszno,ZDR
+2027-04-03,ŁKS Coolpack Łódź,ŁKS,OPTeam Resovia Rzeszów,OPT
+2027-04-03,PGE Spójnia Stargard,SPÓ,KKS Polonia Warszawa,WAR
+2027-04-04,KSK Qemetica Noteć Inowrocław,INO,Decka Pelplin,PEL
+2027-04-10,WKK Active Hotel Wrocław,WKK,Datzzy Kotwica Port Kołobrzeg,DAT
+2027-04-10,Decka Pelplin,PEL,Enea Basket Poznań,POZ
+2027-04-10,BS Polonia Bytom,BS ,Weegree AZS Politechnika Opolska,OPO
+2027-04-10,GKS Tychy,GKS,Miasto Szkła Krosno,MIA
+2027-04-10,SKS Fulimpex Starogard Gdański,STG,PGE Spójnia Stargard,SPÓ
+2027-04-10,KKS Polonia Warszawa,WAR,ŁKS Coolpack Łódź,ŁKS
+2027-04-10,OPTeam Resovia Rzeszów,OPT,Solvera Sokół Łańcut,ŁAŃ
+2027-04-10,Zdrovo Polonia 1912 Leszno,ZDR,KSK Qemetica Noteć Inowrocław,INO

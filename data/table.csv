@@ -1,18 +1,17 @@
 Place,Team_Short,Team,Games,Points,Wins,Loses,Pts_Scored,Pts_Lost,Pts_Diff
-1,AST,Enea Abramczyk Astoria Bydgoszcz,31,57,26,5,2732,2398,334
-2,SPÓ,PGE Spójnia Stargard,31,52,21,10,2581,2471,110
-3,ŁKS,ŁKS Coolpack Łódź,31,51,20,11,2667,2464,203
-4,STG,SKS Fulimpex Starogard Gdański,31,51,20,11,2604,2476,128
-5,GKS,GKS Tychy,31,51,20,11,2585,2513,72
-6,ŁAŃ,Solvera Sokół Łańcut,31,51,20,11,2658,2684,-26
-7,PEL,Decka Pelplin,31,50,19,12,2673,2567,106
-8,KOT,Kotwica Port Morski Kołobrzeg,31,46,15,16,2539,2441,98
-9,WKK,WKK Active Hotel Wrocław,32,46,14,18,2582,2619,-37
-10,WAR,KKS Polonia Warszawa,31,45,14,17,2491,2567,-76
-11,RES,OPTeam Energia Polska Resovia,31,44,13,18,2512,2566,-54
-12,LES,Novimex Polonia 1912 Leszno,31,44,13,18,2437,2560,-123
-13,OPO,Weegree AZS Politechnika Opolska,31,43,12,19,2529,2618,-89
-14,INO,KSK Qemetica Noteć Inowrocław,31,43,12,19,2466,2565,-99
-15,POZ,Enea Basket Poznań,31,42,11,20,2482,2553,-71
-16,KAT,Miners Katowice,31,39,8,23,2494,2665,-171
-17,BIA,Żubry Abakus Okna Białystok,31,37,6,25,2410,2715,-305
+1,ZDR,Zdrovo Polonia 1912 Leszno,6,12,6,0,546,438,108
+2,ŁKS,ŁKS Coolpack Łódź,6,11,5,1,520,443,77
+3,SPÓ,PGE Spójnia Stargard,6,11,5,1,544,504,40
+4,WKK,WKK Active Hotel Wrocław,6,10,4,2,517,479,38
+5,WAR,KKS Polonia Warszawa,6,10,4,2,526,545,-19
+6,INO,KSK Qemetica Noteć Inowrocław,6,10,4,2,483,468,15
+7,PEL,Decka Pelplin,6,10,4,2,542,534,8
+8,POZ,Enea Basket Poznań,6,10,4,2,556,522,34
+9,ŁAŃ,Solvera Sokół Łańcut,6,9,3,3,529,501,28
+10,DAT,Datzzy Kotwica Port Kołobrzeg,6,8,2,4,539,555,-16
+11,GKS,GKS Tychy,6,8,2,4,449,492,-43
+12,BS ,BS Polonia Bytom,6,8,2,4,494,513,-19
+13,MIA,Miasto Szkła Krosno,6,7,1,5,505,537,-32
+14,OPO,Weegree AZS Politechnika Opolska,6,7,1,5,487,569,-82
+15,STG,SKS Fulimpex Starogard Gdański,6,7,1,5,514,563,-49
+16,OPT,OPTeam Resovia Rzeszów,6,6,0,6,458,546,-88
