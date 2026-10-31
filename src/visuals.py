@@ -46,7 +46,7 @@ def draw_table_with_logos(df_results, filename='visualisations/visual_table.png'
             ab = AnnotationBbox(imagebox, (0.5, y), frameon=False, box_alignment=(0.5, 0.5))
             ax.add_artist(ab)
         else:
-            ax.text(0.5, y, "●", ha='center', va='center', colors='gray')
+            ax.text(0.5, y, "●", ha='center', va='center', color='gray')
 
         # Team name
         ax.text(1.2, y, team_code, weight='bold', fontsize=12, va='center', ha='left')
